@@ -1,4 +1,4 @@
-**How do I use the script?
+**How do I use the script?**
 
 Its pretty simple
 
