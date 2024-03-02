@@ -2,7 +2,7 @@
 
 Its pretty simple
 
-Go to "https://neal.fun/infinite-craft/
+Go to "https://neal.fun/infinite-craft/"
 
 Open the developer tool, this is basically the f12 key combination, if not try googling it
 
