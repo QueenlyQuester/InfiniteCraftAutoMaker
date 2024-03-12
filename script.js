@@ -5,8 +5,8 @@ let mobileItems;
 
 function updateElements() {
     mobileItems = document.querySelectorAll('.mobile-item');
-    if (mobileItems.length >= 2) {
-        totalElements = mobileItems.length;
+    totalElements = mobileItems.length;
+    if (totalElements >= 2) {
         currentElement = getRandomElementIndex(totalElements);
         nextElement = getRandomElementIndex(totalElements);
         while (nextElement === currentElement) {
@@ -15,7 +15,7 @@ function updateElements() {
         if (mobileElementInRange(currentElement)) {
             mobileItems[currentElement].querySelector('.item').click();
         }
-        if (mobileItems) {
+        if (mobileElementInRange(nextElement)) {
             mobileItems[nextElement].querySelector('.item').click();
         }
     }
